@@ -1,0 +1,18 @@
+.Cell{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 146px;
+  
+}
+
+.Cell__image{
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+}
+
+.Cell__text{
+  font-size: 15px;
+  padding: 20px 0;
+}
