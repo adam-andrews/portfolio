@@ -21,7 +21,6 @@
   align-items: center;
   align-items: center;
   margin-top: 8px;
-  font-size: 10px;
   background: white;
   border: none;
   font-weight: 500;
@@ -35,15 +34,16 @@
   padding: 10px 20px;
   width: 124px;
   height: 44px;
-  font-size: 13px;
+  font-size: 15px;
+  font-weight: bold;
+
 }
 
   .Header__cell{
-    display: flex;
+  display: flex;
   align-items: center;
   align-items: center;
   margin-top: 8px;
-  font-size: 10px;
   background: rgba(255,255,255,0);
   border: none;
   font-weight: 500;
@@ -55,15 +55,19 @@
   padding: 10px 20px;
   width: 124px;
   height: 44px;
-  font-size: 13px;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+
   }
+
 .Header__link{
   text-decoration: none;
   color: white;
 }
 
 .Header__image{
-  margin-left: 8px;
+  margin-left: 2px;
   margin-right: 4px;
   width: 24px;
   height: 24px;

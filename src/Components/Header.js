@@ -12,12 +12,13 @@ function Header() {
       <Link to="/Home" className="Header__link">
       <button className="Header__cell">
         <img className ="Header__image" src={HomeIcon} />
-          Contact</button>
+          Home</button>
       </Link>
       <Link to="/About" className="Header__link">
       <button className="Header__cell">
         <img className ="Header__image" src={AboutIcon} />
-          Contact</button>
+        About
+          </button>
       </Link>
       <Link to="/Contact" className="Header__link">
         <button className="Header__button">

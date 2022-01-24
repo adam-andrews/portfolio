@@ -5,12 +5,20 @@
   width: 100%;
   background-image: url("./Images/Frontpage/BackgroundImage3.svg");
   background-repeat: no-repeat;
+
+  @media (max-width: 768px) {
+    background-image: url("./Images/Frontpage/Background.svg");
+  }
+
 }
 
 .App__frontpage{
   margin-top: 30px;
   display: flex;
   justify-content: center;
+  @media (max-width: 768px) {
+    flex-direction:column;
+  }
 }
 
 .App__image{
